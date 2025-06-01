@@ -20,7 +20,6 @@ type Product = {
 
 function FeaturedProducts() {
     const [products, setProducts] = useState<Product[]>([]);
-    const [selectedProductId, setSelectedProductId] = useState<string | null>(null);
     const navigate = useNavigate();
   
     useEffect(() => {

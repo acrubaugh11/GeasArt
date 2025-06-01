@@ -14,13 +14,6 @@ export default function ArtForm() {
 
 const [imageFile, setImageFile] = useState<File | null>(null);
 
-const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  const file = e.target.files?.[0];
-  if (file) {
-    setImageFile(file);
-  }
-};
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
