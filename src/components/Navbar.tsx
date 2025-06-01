@@ -1,6 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 import '../index.css'

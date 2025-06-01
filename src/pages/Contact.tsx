@@ -1,7 +1,6 @@
-import { Col, Row } from "react-bootstrap"
-import Navbar from "../components/Navbar"
-import art4 from "../assets/art5.png"
-import contact from "../assets/fly.jpg"
+import { Col, Row } from "react-bootstrap";
+import Navbar from "../components/Navbar";
+import contact from "../assets/fly.jpg";
 
 
 function Contact() {

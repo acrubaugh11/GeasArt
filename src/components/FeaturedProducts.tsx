@@ -1,10 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import art5 from '../assets/art5.png';
-import art6 from '../assets/art6.png';
-import art7 from '../assets/art7.png';
-import { Button } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';

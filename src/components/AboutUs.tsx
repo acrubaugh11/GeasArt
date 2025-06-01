@@ -1,8 +1,6 @@
 import { Col, Row } from "react-bootstrap";
-import art4 from '../assets/art4.png';
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import flower from '../assets/flower.jpg'
+import flower from '../assets/flower.jpg';
 
 function AboutUs() {
 

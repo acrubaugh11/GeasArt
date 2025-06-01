@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Admin from './pages/AdminLogin';
-import Dashboard from './pages/AdminDashboard'
-import AdminProducts from './pages/AdminProducts'
+import Dashboard from './pages/AdminDashboard';
+import AdminProducts from './pages/AdminProducts';
 import ArtForm from './pages/ArtForm';
 import ProtectedRoute from './ProtectedRoute';
 

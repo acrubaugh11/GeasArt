@@ -3,7 +3,6 @@ import AboutUs from "../components/AboutUs"
 import FeaturedProducts from "../components/FeaturedProducts"
 import Hero from "../components/Hero"
 import Social from "../components/Social"
-import { useEffect, useState } from "react"
 
 
 function Home() {

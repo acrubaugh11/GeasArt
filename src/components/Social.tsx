@@ -1,7 +1,4 @@
 import { Col, Row } from "react-bootstrap";
-import art5 from '../assets/art5.png';
-import art6 from '../assets/art6.png';
-import art7 from '../assets/art7.png';
 import insta from '../assets/logo.svg';
 import { Link } from "react-router-dom";
 

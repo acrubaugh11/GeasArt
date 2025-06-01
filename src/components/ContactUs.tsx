@@ -1,5 +1,4 @@
-import { Col, Row } from "react-bootstrap"
-import Contact from "../pages/Contact"
+import { Col, Row } from "react-bootstrap";
 
 
 function ContactUs() {

@@ -1,9 +1,6 @@
-import Navbar from "../components/Navbar"
-import art8 from '../assets/art8.png'
 import { useEffect, useState } from 'react';
 import AdminNavbar from "../components/AdminNavbar";
 import { useNavigate } from 'react-router-dom';
-import ProductView from '../components/ProductView';  // import the dialog component
 import AdminProductView from "../components/AdminProductView";
 
 type Product = {

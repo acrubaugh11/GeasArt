@@ -1,6 +1,3 @@
-import { Col, Container, Row } from "react-bootstrap"
-import Navbar from "../components/Navbar"
-import { Link } from 'react-router-dom';
 import AdminNavbar from "../components/AdminNavbar";
 
 

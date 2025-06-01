@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { PhotoIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
-import {createProduct} from '../../../backend/src/services/productsService'
 import { useNavigate } from 'react-router-dom';
 
 export default function ArtForm() {
