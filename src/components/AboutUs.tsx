@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import flower from '../assets/flower.jpg';
+import flower from '../assets/flo.jpg';
 
 function AboutUs() {
 
