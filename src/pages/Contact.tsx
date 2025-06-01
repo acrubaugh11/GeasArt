@@ -15,7 +15,7 @@ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
   const email = (form.elements.namedItem('email') as HTMLInputElement).value;
   const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
   
-  const res = await fetch('http://localhost:3000/contact/msg', {
+  const res = await fetch('https://geasart.onrender.com/contact/msg', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({

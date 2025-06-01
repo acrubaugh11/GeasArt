@@ -23,7 +23,7 @@ function FeaturedProducts() {
     const navigate = useNavigate();
   
     useEffect(() => {
-        fetch('http://localhost:3000/products')
+        fetch('https://geasart.onrender.com/products')
           .then((res) => res.json())
           .then((data) => setProducts(data))
           .catch((err) => console.error('Failed to fetch products:', err));

@@ -34,7 +34,7 @@ const [imageFile, setImageFile] = useState<File | null>(null);
       }
 
 try {
-      const response = await fetch('http://localhost:3000/products', {
+      const response = await fetch('https://geasart.onrender.com/products', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

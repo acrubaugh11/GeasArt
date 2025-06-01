@@ -21,7 +21,7 @@ export default function AdminProducts() {
   
 
   useEffect(() => {
-    fetch('http://localhost:3000/products', {
+    fetch('https://geasart.onrender.com/products', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

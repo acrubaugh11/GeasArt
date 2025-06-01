@@ -27,7 +27,7 @@ export default function ProductView({
   useEffect(() => {
     const fetchArt = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/products/${artId}`);
+        const res = await fetch(`https://geasart.onrender.com/products/${artId}`);
         const data = await res.json();
         setArtPiece(data);
       } catch (err) {
