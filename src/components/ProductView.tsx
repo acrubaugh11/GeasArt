@@ -44,7 +44,7 @@ export default function ProductView({
   if (!artPiece) return <div className="p-4 text-red-500">Art piece not found.</div>;
 
   const handleBuyNow = async (productId: string) => {
-  const res = await fetch("http://localhost:3000/checkout", {
+  const res = await fetch("https://geasart.onrender.com/checkout", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

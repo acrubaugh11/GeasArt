@@ -56,7 +56,7 @@ export default function AdminProductView({
     }
 
     try {
-      const response = await fetch(`http://localhost:3000/products/${artPiece.id}`, {
+      const response = await fetch(`https://geasart.onrender.com/products/${artPiece.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -99,7 +99,7 @@ const handleDelete = async () => {
   }
 
   try {
-    const response = await fetch(`http://localhost:3000/products/${artPiece.id}`, {
+    const response = await fetch(`https://geasart.onrender.com/products/${artPiece.id}`, {
       method: 'DELETE',
       headers: {
         Authorization: `Bearer ${token}`,
