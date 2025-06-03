@@ -41,7 +41,7 @@ router.post('/checkout', async (req, res): Promise<any> => {
       ],
       mode: 'payment',
       success_url: 'http://localhost:5173/success',
-      cancel_url: 'https://geasart.onrender.com/products',
+      cancel_url: 'https://geasart.com/shop',
     });
 
     res.json({ url: session.url });
