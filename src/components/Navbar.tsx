@@ -36,7 +36,7 @@ export default function Navbar() {
               to="/"
               className="flex shrink-0 items-center font-gilda text-[25px] letter-colors"
             >
-              Art By Gea
+              Geas Art
             </Link>
 
           <div className="hidden sm:ml-6 sm:flex space-x-4">

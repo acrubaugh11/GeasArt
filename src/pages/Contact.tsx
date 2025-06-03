@@ -90,13 +90,14 @@ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
             </Col>
 
 
-            <Col xs={12} md={6} className="flex justify-center mb-6 md:mb-0 !pl-10 !pr-10">
-                <img
+            <Col xs={12} md={6} className="hidden md:flex justify-center mb-6 md:mb-0 !pl-10 !pr-10">
+            <img
                 src={contact}
                 alt="Art"
                 className="h-62 sm:h-[400px] md:h-[600px] lg:h-[800px] w-auto object-cover object-[72%_75%] !mb-10"
             />
             </Col>
+
 
       </Row>
         </>
