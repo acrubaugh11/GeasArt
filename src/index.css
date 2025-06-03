@@ -22,6 +22,9 @@ a {
   text-decoration: none !important;
   color: rgb(83, 26, 74, 1) !important;
 }
+button {
+  background-color: #f9f9f9 !important;
+}
 
 .mainbg{
   background-color:rgb(209, 200, 244);
@@ -80,6 +83,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9 !important;
   }
 }

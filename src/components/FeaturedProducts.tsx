@@ -76,7 +76,7 @@ function FeaturedProducts() {
         <Row>
           <Col className="pt-10 text-center">
           <Link to="/shop">
-              <button className="rounded-lg bg-violet-700 leter-colors px-6 py-3 hover:bg-violet-800 transition letter-colors">
+              <button className="rounded-lg leter-colors px-6 py-3  transition letter-colors">
               Shop All
             </button>
           </Link>
